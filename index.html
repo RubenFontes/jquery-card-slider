@@ -1,9 +1,8 @@
 <!DOCTYPE html>
-<!-- Created By CodingNepal -->
-<html lang="en" dir="ltr">
+<html lang="pt-br">
    <head>
-      <meta charset="utf-8">
-      <title>Responsive Owl-Carousel Slider | CodingNepal</title>
+      <meta charset="utf-8" dir="ltr">
+      <title>Escolha um AVA</title>
       <link rel="stylesheet" href="style.css">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
@@ -14,53 +13,43 @@
       <div class="wrapper">
         <h1>Escolha um AVA</h1>
          <div class="carousel owl-carousel">
-            <a href="">
-                <div class="card card-1">
-                    PEX
-                 </div>
+            <a href="http://ceap.maisinterativo.com.br/login/index.php" target="_blank">
+               <div class="card card-1">
+                  Ceap
+               </div>
             </a>
-            <div class="card card-2">
-               Ceap
-            </div>
-            <div class="card card-3">
-               Cecamp
-            </div>
-            <div class="card card-4">
-               UAB
-            </div>
-            <div class="card card-5">
-               Progep
-            </div>
-            <div class="card card-6">
-                Classes
-             </div>
-             <div class="card card-7">
-                Cofen
-             </div>
+            <a href="https://www.cecampe.ufpb.br/" target="_blank">
+               <div class="card card-2">
+                  Cecamp
+               </div>
+            </a>
+            <a href="https://www.classes.sead.ufpb.br/login/index.php" target="_blank">
+               <div class="card card-3">
+                  Classes
+               </div>
+            </a>
+            <a href="http://www.cofen.gov.br/" target="_blank">
+               <div class="card card-4">
+                  Cofen
+               </div>
+             </a>
+            <a href="https://pex.sead.ufpb.br/login/index.php" target="_blank">
+               <div class="card card-5">
+                  PEX
+               </div>
+            </a>
+            <a href="https://ead.progep.ufpb.br/login/index.php" target="_blank">
+               <div class="card card-6">
+                  Progep
+               </div>
+            </a>
+            <a href="https://www.uab.sead.ufpb.br/login/index.php" target="_blank">
+               <div class="card card-7">
+                  UAB
+               </div>
+            </a>
          </div>
       </div>
-      <script>
-         $(".carousel").owlCarousel({
-           margin: 20,
-           loop: true,
-           autoplay: true,
-           autoplayTimeout: 2000,
-           autoplayHoverPause: true,
-           responsive: {
-             0:{
-               items:1,
-               nav: false
-             },
-             600:{
-               items:2,
-               nav: false
-             },
-             1000:{
-               items:4,
-               nav: false
-             }
-           }
-         });
-      </script>
+      <script src="app.js"></script>
    </body>
 </html>
