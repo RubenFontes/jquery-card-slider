@@ -32,8 +32,8 @@ h1{
   background-color: white;
   color: #3867B7;
   text-align: center;
-  margin: 40px 0;
-  line-height: calc(8vw + 8vh);
+  margin: 20px 0;
+  line-height: calc(12vw + 8vh);
   font-size: calc(1vh + 2vw);
   font-weight: 600;
   border-radius: 6px;
@@ -51,7 +51,7 @@ h1{
 .owl-dot{
   height: 10px;
   width: 30px;
-  margin: 0 5px;
+  margin: 0 5px 20px 5px;
   outline: none;
   border-radius: 14px;
   border: 2px solid #3867B7 !important;
