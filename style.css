@@ -16,8 +16,9 @@ body{
   width: 100%;
 }
 h1{
+  font-size: calc(2vh + 2vw);
+  font-weight: 600;
   text-align: center;
-  margin-bottom: 40px;
   color: #3867B7; 
 }
 .carousel{
@@ -26,31 +27,30 @@ h1{
   padding: 0 30px;
 }
 .carousel .card{
-  border-top: 10px solid #3867B7;
+  border-top: 0.3em solid #3867B7;
   cursor: pointer;
   background-color: white;
   color: #3867B7;
   text-align: center;
-  margin: 20px 0;
-  line-height: 250px;
-  font-size: 36px;
+  margin: 40px 0;
+  line-height: calc(8vw + 8vh);
+  font-size: calc(1vh + 2vw);
   font-weight: 600;
-  border-radius: 10px;
+  border-radius: 6px;
   box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
   transition: 0.5s;
 }
 .card:hover{
-  border-top: 10px solid #F17335;
+  border-top: 0.3em solid #F17335;
   color: #F17335;
   transform: scale(0.98);
 }
 .owl-dots{
   text-align: center;
-  margin-top: 40px;
 }
 .owl-dot{
-  height: 15px;
-  width: 45px;
+  height: 10px;
+  width: 30px;
   margin: 0 5px;
   outline: none;
   border-radius: 14px;
